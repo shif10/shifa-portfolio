@@ -149,7 +149,7 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
@@ -208,7 +208,7 @@ export const projects = [
     title: "Small React apps",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Developed a  small samll applaications for learning purpose of working api and hook of react and learn how to  build the project and make it live",
     image: "https://i.postimg.cc/1tX6nSh0/Screenshot-2024-01-24-133403.png",
     tags: ["React Js"],
     category: "web app",
@@ -228,7 +228,7 @@ export const projects = [
     title: "Movies hub",
     date: "Oct 2022 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Designed and developed the  Movie hub app with integrating api of movies and learn extra advance about hooks and api intigration and process ",
     image: "https://i.postimg.cc/t4N3ZDf5/Screenshot-2024-01-24-132916.png",
     tags: ["React Js"],
     category: "web app",
@@ -241,32 +241,32 @@ export const projects = [
     title: "Food App",
     date: "Jul 2021",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "Create a food app for learn how the e-commerce projects works and gives functionality of cart and checkout systems.",
     image: "https://i.postimg.cc/HsTVNHjp/Screenshot-2024-01-24-132607.png",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "web app",
     github: "https://github.com/shif10",
     webapp: "https://reactfoodeiapp.netlify.app",
   },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/shif10",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
+  // {
+  //   id: 5,
+  //   title: "Todo Web App",
+  //   date: "Jun 2021",
+  //   description:
+  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+  //   image:
+  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+  //   category: "web app",
+  //   github: "https://github.com/shif10",
+  //   webapp: "https://rishav-react-todo.netlify.app/",
+  // },
   {
     id: 6,
     title: "Expand Tracker",
     date: "Jun 2021",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+      "A simple react app that  helps to calculate expands with using diffrent countrys",
     image: "https://i.postimg.cc/W35FTHdD/Screenshot-2024-01-24-133239.png",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",

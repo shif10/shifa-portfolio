@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+
 import { Snackbar } from "@mui/material";
 
 const Container = styled.div`
@@ -135,25 +136,46 @@ const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
+  const [feilds, setFields] = useState({
+    name: "",
+    email: "",
+    message: "",
+    subject: "",
+  });
+  const onChangeField = (e) => {
+    const { name, value } = e.target || {};
+    if (name) {
+      setFields((prevFields) => ({
+        ...prevFields,
+        [name]: value,
+      }));
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
-      .then(
-        (result) => {
-          setOpen(true);
-          form.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    const templateParams = {
+      to_email: "recipient@example.com",
+      message: "Hello, this is a test email!",
+      subject: "",
+    };
+    try {
+      emailjs
+        .sendForm(
+          "gmail_for_portfolio",
+          "template_d8roqve",
+          templateParams,
+          "9d6BIt3jtrJMq2Mst"
+        )
+        .then((response) => {
+          console.log("Email sent successfully:", response);
+        })
+        .catch((error) => {
+          console.error("Email could not be sent:", error);
+        });
+    } catch (error) {
+      console.log("catch", error);
+    }
   };
 
   return (
@@ -163,12 +185,33 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm onSubmit={handleSubmit} forwardedAs={form}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput
+            placeholder="Your Email"
+            // value={feilds.email}
+            name="email"
+            onChange={onChangeField}
+          />
+          <ContactInput
+            placeholder="Your Name"
+            value={feilds.name}
+            name="name"
+            onChange={onChangeField}
+          />
+          <ContactInput
+            placeholder="Subject"
+            value={feilds.subject}
+            name="subject"
+            onChange={onChangeField}
+          />
+          <ContactInputMessage
+            placeholder="Message"
+            value={feilds.message}
+            rows="4"
+            name="message"
+            onChange={onChangeField}
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
