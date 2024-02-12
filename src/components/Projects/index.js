@@ -20,9 +20,10 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. had small large all
-          projects that i worked for.had some personal or some of industrial
-          Here are some of my projects.
+          In my career, I've worked on all sorts of projects, from small
+          personal ones to big industrial ones. Whether it's creating apps for
+          tracking health or leading community programs for sustainability, each
+          project has taught me a lot and helped me grow in different areas.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (

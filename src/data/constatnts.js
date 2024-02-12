@@ -235,6 +235,17 @@ export const projects = [
     github: "https://github.com/shif10",
     webapp: "https://movieshubmovie.netlify.app/",
   },
+  {
+    id: 6,
+    title: "Snack game",
+    date: "Jun 2021",
+    description: "A simple Snack game that we usually play",
+    image: "https://i.postimg.cc/xTYyPTxL/Untitled.png",
+    tags: ["React Js"],
+    category: "web app",
+    github: "https://github.com/shif10/shifa-portfolio",
+    webapp: "https://snakgame.vercel.app/",
+  },
 
   {
     id: 4,
