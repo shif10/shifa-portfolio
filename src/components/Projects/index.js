@@ -50,24 +50,24 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {/* {toggle === "android app" ? (
+          {toggle === "Continue projects" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="Continue projects"
+              onClick={() => setToggle("Continue projects")}
             >
-              ANDROID APP'S
+              Continue projects
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="Continue projects"
+              onClick={() => setToggle("Continue projects")}
             >
-              ANDROID APP'S
+              Continue projects
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "machine learning" ? (
+          {/* {toggle === "machine learning" ? (
             <ToggleButton
               active
               value="machine learning"
@@ -82,7 +82,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             >
               MACHINE LEARNING
             </ToggleButton>
-          )} */}
+          )}  */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
@@ -94,7 +94,7 @@ const Projects = ({ openModal, setOpenModal }) => {
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
                 project={project}

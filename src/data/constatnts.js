@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shif10",
-  resume: "https://shifa-bhari-resume.tiiny.site/",
+  resume: "https://apricot-desdemona-58.tiiny.site/",
   linkedin: "https://www.linkedin.com/in/shifa-bhari-5a6259222/",
   //   twitter: "https://twitter.com/RishavChanda",
   //   insta: "https://www.instagram.com/rishav_chanda/",
@@ -273,7 +273,7 @@ export const projects = [
   //   webapp: "https://rishav-react-todo.netlify.app/",
   // },
   {
-    id: 6,
+    id: 8,
     title: "Expand Tracker",
     date: "Jun 2021",
     description:
@@ -283,6 +283,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/shif10",
     webapp: "https://reactexpansetracker.netlify.app",
+  },
+
+  {
+    id: 7,
+    title: "Flipcart clone",
+    date: "Jan 2024",
+    description: "filipcart clone buliding whith that same features",
+    image: "https://i.postimg.cc/FKf3mLTZ/Screenshot-2024-02-20-132044.png",
+    tags: ["React Js", "API", "Axios", "Node JS", "mongo db"],
+    category: "Continue projects",
+    github: "https://github.com/shif10",
+    webapp: "https://flipcart-fronted.vercel.app/",
   },
 ];
 
