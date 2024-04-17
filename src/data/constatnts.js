@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shif10",
-  resume: "https://apricot-desdemona-58.tiiny.site/",
+  resume: "https://shifa-bhari-resume.tiiny.site/",
   linkedin: "https://www.linkedin.com/in/shifa-bhari-5a6259222/",
   //   twitter: "https://twitter.com/RishavChanda",
   //   insta: "https://www.instagram.com/rishav_chanda/",
