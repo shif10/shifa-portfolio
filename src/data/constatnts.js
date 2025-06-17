@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shif10",
-  resume: "https://shifa-bhari-resume.tiiny.site/",
+  resume: "https://amber-tedra-48.tiiny.site/",
   linkedin: "https://www.linkedin.com/in/shifa-bhari-5a6259222/",
   //   twitter: "https://twitter.com/RishavChanda",
   //   insta: "https://www.instagram.com/rishav_chanda/",
@@ -70,9 +70,9 @@ export const skills = [
       },
 
       {
-        name: "Python",
+        name: "graphQl",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "data:image/png;base64,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",
       },
       {
         name: "MySQL",
@@ -91,6 +91,10 @@ export const skills = [
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "AWS",
+        image: "https://i.postimg.cc/cLHPVRWv/download.jpg",
       },
     ],
   },
@@ -156,7 +160,7 @@ export const experiences = [
     img: "https://i.postimg.cc/pVc2FSnV/lanatus-logo.jpg",
     role: "Full stack devloper",
     company: "Lanatus system",
-    date: "august 2023 - present",
+    date: "august 2023 - july 2024",
     desc: "I'm skilled in creating engaging user interfaces using React.js. On the backend, I excel in Node.js, utilizing databases like SQLite and MongoDB to design scalable solutions. Committed to delivering excellent work, adaptable, and continuously learning, I'm a valuable asset for projects in need of a versatile developer with a comprehensive skill set.",
     skills: [
       "ReactJS",
@@ -170,6 +174,27 @@ export const experiences = [
       "MongoDB",
     ],
   },
+{
+  id: 2,
+  img: "https://i.postimg.cc/4NJ3HS6j/download.png",
+  role: "MERN Stack Developer",
+  company: "ThinkWik",
+  date: "July 2024 - Present",
+  desc: "As a MERN Stack Developer, I've gained hands-on experience in both frontend and backend development. I build responsive and dynamic user interfaces using React.js and Material UI, while also designing scalable backend solutions with Node.js and Express. I work confidently with MongoDB and SQLite for database management, and I've integrated GraphQL APIs to optimize data fetching. Additionally, I’ve explored cloud technologies with AWS to enhance application deployment and scalability. My continuous learning mindset and cross-functional expertise make me a strong asset to any tech-driven team.",
+  skills: [
+    "ReactJS",
+    "Node.js",
+    "Express.js",
+    "GraphQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "MongoDB",
+    "My Sql",
+    "AWS"
+  ],
+}
+
 ];
 
 export const education = [
@@ -238,7 +263,7 @@ export const projects = [
   {
     id: 6,
     title: "Snack game",
-    date: "Jun 2021",
+    date: "May 2024",
     description: "A simple Snack game that we usually play",
     image: "https://i.postimg.cc/xTYyPTxL/Untitled.png",
     tags: ["React Js"],
@@ -250,7 +275,7 @@ export const projects = [
   {
     id: 4,
     title: "Food App",
-    date: "Jul 2021",
+    date: "Jun 2024",
     description:
       "Create a food app for learn how the e-commerce projects works and gives functionality of cart and checkout systems.",
     image: "https://i.postimg.cc/HsTVNHjp/Screenshot-2024-01-24-132607.png",
@@ -259,23 +284,11 @@ export const projects = [
     github: "https://github.com/shif10",
     webapp: "https://reactfoodeiapp.netlify.app",
   },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/shif10",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
+
   {
     id: 8,
     title: "Expand Tracker",
-    date: "Jun 2021",
+    date: "aug 2024",
     description:
       "A simple react app that  helps to calculate expands with using diffrent countrys",
     image: "https://i.postimg.cc/W35FTHdD/Screenshot-2024-01-24-133239.png",
@@ -288,7 +301,7 @@ export const projects = [
   {
     id: 7,
     title: "Flipcart clone",
-    date: "Jan 2024",
+    date: "oct 2024",
     description: "filipcart clone buliding whith that same features",
     image: "https://i.postimg.cc/FKf3mLTZ/Screenshot-2024-02-20-132044.png",
     tags: ["React Js", "API", "Axios", "Node JS", "mongo db"],
@@ -296,6 +309,19 @@ export const projects = [
     github: "https://github.com/shif10",
     webapp: "https://flipcart-fronted.vercel.app/",
   },
+  {
+  
+  id: 10,
+  title: "AWS File Upload (Backend Focused)",
+  date: "May 2025",
+  description:
+    "A backend-driven project showcasing secure file uploads using AWS S3. Built APIs in Node.js to handle file uploads, manage AWS credentials, and serve files securely. Deployed services using EC2 for scalable backend hosting. Gained hands-on experience with S3 bucket policies, IAM roles, multipart uploads, and signed URLs.",
+  image: "https://i.postimg.cc/cLHPVRWv/download.jpg",
+  tags: ["Node JS", "Express", "AWS S3", "AWS EC2", "API"],
+ category: "Continue projects",
+  github: "https://github.com/shif10/aws_fileuploadec2",
+  webapp: ""
+}
 ];
 
 // export const TimeLineData = [
