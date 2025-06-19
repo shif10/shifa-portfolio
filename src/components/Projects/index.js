@@ -18,13 +18,16 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Personal Projects</Title>
         <Desc>
-          In my career, I've worked on all sorts of projects, from small
-          personal ones to big industrial ones. Whether it's creating apps for
-          tracking health or leading community programs for sustainability, each
-          project has taught me a lot and helped me grow in different areas.
+          Throughout my journey, I’ve taken on a variety of personal projects
+          that reflect both my technical skills and my passion for meaningful
+          impact. From building  applications to spearheading
+          sustainability-focused community initiatives, each project has pushed
+          me to learn, adapt, and grow. These hands-on experiences have shaped
+          my ability to turn ideas into actionable, real-world solutions.
         </Desc>
+
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
