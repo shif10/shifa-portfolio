@@ -1,16 +1,20 @@
 export const Bio = {
   name: "Shifa Bhari",
-  roles: ["Full Stack Developer", "MERN Stack Developer", "Programmer"],
+
+  roles: [
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Data Engineering Student",
+    "Software Developer",
+  ],
+
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a Full Stack Developer with 3 years of professional experience building web applications, backend systems, APIs, and database-driven solutions. Currently, I am pursuing an M.Sc. in Data Engineering at Constructor University in Germany, where I am expanding my knowledge of data engineering, databases, cloud technologies, and data-driven systems. I enjoy solving real-world problems, learning new technologies, and building reliable and scalable software.",
+
   github: "https://github.com/shif10",
   resume: "https://amber-tedra-48.tiiny.site/",
   linkedin: "https://www.linkedin.com/in/shifa-bhari-5a6259222/",
-  //   twitter: "https://twitter.com/RishavChanda",
-  //   insta: "https://www.instagram.com/rishav_chanda/",
-  //   facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
-
 export const skills = [
   {
     title: "Frontend",
@@ -44,11 +48,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
+      
       {
         name: "Material UI",
         image:
@@ -179,7 +179,7 @@ export const experiences = [
   img: "https://i.postimg.cc/4NJ3HS6j/download.png",
   role: "MERN Stack Developer",
   company: "ThinkWik",
-  date: "July 2024 - Present",
+  date: "July 2024 - april 2026",
   desc: "As a MERN Stack Developer, I've gained hands-on experience in both frontend and backend development. I build responsive and dynamic user interfaces using React.js and Material UI, while also designing scalable backend solutions with Node.js and Express. I work confidently with MongoDB and SQLite for database management, and I've integrated GraphQL APIs to optimize data fetching. Additionally, I’ve explored cloud technologies with AWS to enhance application deployment and scalability. My continuous learning mindset and cross-functional expertise make me a strong asset to any tech-driven team.",
   skills: [
     "ReactJS",
@@ -198,8 +198,18 @@ export const experiences = [
 ];
 
 export const education = [
+
+{
+  id: 0,
+  img: "https://www.constructor.university/sites/default/files/styles/og_image/public/2023-11/constructor-university-campus.jpg",
+  school: "Constructor University, Bremen, Germany",
+  date: "Sep 2026 - Present",
+  grade: "In Progress",
+  desc: "I am currently pursuing an M.Sc. in Data Engineering at Constructor University, where I am developing my skills in data engineering, databases, cloud technologies, machine learning, and data-driven systems.",
+  degree: "M.Sc. Data Engineering",
+},
   {
-    id: 0,
+    id: 1,
     img: "https://i.postimg.cc/JzWnPNyg/mlkakdiya.jpg",
     school: "M.L.KAKADIYA MAHILA COLLAGE, Amreli",
     date: "Oct 2018 - Sep 2023",
@@ -208,7 +218,7 @@ export const education = [
     degree: "BCA MCA",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://i.postimg.cc/kGympVhm/download.jpg",
     school: "Leauva patel Sankul",
     date: "Apr 2016 - Apr 2018",
@@ -217,7 +227,7 @@ export const education = [
     degree: "(XII)",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://i.postimg.cc/kGympVhm/download.jpg",
     school: "Leauva patel Sankul",
     date: "Apr 2015 - Apr 2016",
