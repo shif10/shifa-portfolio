@@ -201,7 +201,7 @@ export const education = [
 
 {
   id: 0,
-  img: "https://www.constructor.university/sites/default/files/styles/og_image/public/2023-11/constructor-university-campus.jpg",
+  img: "https://i.postimg.cc/Nj8Gwccp/IMG-5529.jpg",
   school: "Constructor University, Bremen, Germany",
   date: "Sep 2026 - Present",
   grade: "In Progress",
