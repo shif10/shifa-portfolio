@@ -11,8 +11,8 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
+  // SocialMediaIcons,
+  // SocialMediaIcon,
   ResumeButton,
 } from "./herostyle.js";
 import HeroImg from "./shifa.jpg";

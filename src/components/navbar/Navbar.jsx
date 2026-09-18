@@ -17,7 +17,7 @@ import { Bio } from "../../data/constatnts";
 import { useTheme } from "styled-components";
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  // const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
   return (
     <Nav>
